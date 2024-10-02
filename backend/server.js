@@ -7,7 +7,8 @@ const app = express()
 app.use(cors())
 app.use(express.json())
 
-app.use("/api/v1/books.route.js", books_tk63)
+app.use("/api/v1/tk63/books", books_tk63)
+console.log("route.js works");
 
 app.use('*', (req,res) => {
   res.status(404).json({error: "not found"})

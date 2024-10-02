@@ -8,6 +8,7 @@ export default class BooksDAO {
       books_tk63 = await conn.db(process.env.BOOKS_NS).collection('books_tk63')
     } catch(e) {
       console.error(`unable to connect in BooksDAO: ${e}`)
+
     }
   }
   static async getBooks({

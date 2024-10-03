@@ -1,3 +1,5 @@
+//tk63@njit.edu          10/3/24             Tanvi Karad         IT302-451           Phase 2
+
 let books_tk63
 
 export default class BooksDAO {
@@ -17,12 +19,21 @@ export default class BooksDAO {
     booksPerPage = 20,
   } = {}) {
     let query
-    if(filters) {
-      if("title" in filters) {
-        query = { $text: { $search: filters['title']}}
-      } else if("id" in filters) {
-        query = { "id": { $eq: filters['id']}}
-    }
+      if(filters) {
+        console.log(filters)
+        if("title" in filters) {
+          console.log(filters["title"])
+          console.log("in title")
+          query = { $text: { $search: filters['title']}}
+        } else if("id" in filters) {
+          console.log(filters["id"])
+          console.log("id works")
+          query = { "id": { $eq: (parseInt(filters['id']))}}
+        }else if("pageCount" in filters) {
+          console.log(filters["pageCount"])
+          console.log("pg works")
+            query = { "pageCount": { $eq: (parseInt(filters['pageCount']))}}
+      }
  }
  let cursor
  try {

@@ -14,6 +14,21 @@ export default class CommentsDAO {
       console.error(`unable to establish connection handle in commentsDAO: ${e}`)
     }
   }
+
+  static async getComment(commentID){
+      console.log("get comment");
+      try {
+          const commentDoc = await comments.findOne({ _id: commentID });
+          console.log(commentDoc);
+          return commentDoc;
+      } catch(e) {
+          console.error(`unable to get comment: ${e}`);
+          console.error(e);
+          return { error: e };
+      }
+  }
+    
+
   static async addComment(bookID, user, comment, date) {
     console.log("add comment")
     try {

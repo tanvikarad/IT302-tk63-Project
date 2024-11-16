@@ -25,6 +25,16 @@ export default class CommentsController {
     }
   }
 
+  static async apiGetComment(req, res) {
+      try {
+          const comments = await CommentsDAO.getComments();
+          res.json(comments);
+      } catch (e) {
+          res.status(500).json({ error: e.message });
+      }
+  }
+  
+
   static async apiUpdateComment(req,res,next) {
     try {
       const commentID = req.body.commentID

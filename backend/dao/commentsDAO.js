@@ -14,6 +14,7 @@ export default class CommentsDAO {
       console.error(`unable to establish connection handle in commentsDAO: ${e}`)
     }
   }
+//tk63@njit.edu          11/14/24             Tanvi Karad         IT302-451           Phase 4
 
   static async getComment(commentID){
       console.log("get comment");

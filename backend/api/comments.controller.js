@@ -28,7 +28,9 @@ export default class CommentsController {
 
   static async apiGetComment(req, res) {
       try {
-          const comments = await CommentsDAO.getComments();
+          const bookID = req.params.id;
+          console.log("apiGetComment: bookid", bookID);
+          const comments = await CommentsDAO.getComment(bookID);
           res.json(comments);
       } catch (e) {
           res.status(500).json({ error: e.message });

@@ -32,10 +32,17 @@ const Book = (props) => {
       })
   }
   const getComment= id => {
- BookDataService.getComment(id)
+    BookDataService.getComment(id)  
+    
+
       .then(response => {
-        setComments(response.data.comments[0])
-      })
+        console.log('API RESPONSE COMMENT:', response.data);
+       
+        setComments(response.data)
+        //setBook({...book, comments: response.data[0].comments})
+      }
+      
+  )
       .catch(e => {
         console.log(e);
       })
@@ -46,9 +53,18 @@ const Book = (props) => {
     getBook(id)
   }, [id])
 
+  useEffect(() => {
+    console.log("new state of comments", comments)
+    setBook({...book, comments: comments})
+  }, [comments])
+
   useEffect( () => {
     getComment(id)
-  }, [book])
+  }, [])
+
+  useEffect( () => {
+    console.log("new book updated", book);
+  })
 
   const deleteComment = (commentID, index) => {
     BookDataService.deleteComment(commentID, props.user.id)
@@ -79,13 +95,33 @@ const Book = (props) => {
                   Page Count: {book.pageCount}
                 </Card.Text>
                 {props.user &&
-                  <Link to={"/tk63/books/" + id + "/tk63/comment"}>
+                  <Link to={"/books/" + id + "/comment"}>
                     Add Comment
                   </Link>}
               </Card.Body>
             </Card>
             <br></br>
-            <h2>Comments for {book.title}</h2> <ul> {comments?.map(comment => ( <li key={comment._id}>{comments.comment}</li> ))} </ul>
+            <h2>Comments</h2><br></br>
+            {book.comments ? book.comments.map((comment, index) => {
+              console.log("in map", comment)
+              return (
+                <Card key={index}>
+                  <Card.Body>
+                    <h5>{comment.name + " commented on " + new Date(Date.parse(comment.date)).toDateString()}</h5>
+                    <p>{comment.comment}</p>
+                    {props.user && props.user.id === comment.user_id &&
+                      <Row>
+                        <Col><Link
+                          to={"/books/" + id + "/comment"}
+                          state={{ currentComment: comment }}
+                        >Edit</Link>
+                        </Col>
+                        <Col><Button variant="link">Delete</Button></Col>
+                      </Row>}
+                  </Card.Body>
+                </Card>
+              )
+            }) : null}
           </Col>
         </Row>
       </Container>

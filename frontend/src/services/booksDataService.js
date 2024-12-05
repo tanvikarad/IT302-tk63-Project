@@ -36,7 +36,8 @@ class BookDataService {
         )
     }
     getComment(data) {
-        return axios.get(`${BookDataService.url}/api/v1/tk63/books/comment`, data)
+        console.log("data in axios shit", data)
+        return axios.get(`${BookDataService.url}/api/v1/tk63/books/comment/${data}`)
     }
 
     getPageCount() {

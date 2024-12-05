@@ -8,7 +8,7 @@ export default class CommentsDAO {
     if(comments) {
       return
     } try {
-      comments = await conn.db('IT302').collection(process.env.BOOOKS_NS)
+      comments = await conn.db('IT302').collection(process.env.REACT_APP_BOOOKS_NS)
       console.log("the try-catch works")
     } catch(e) {
       console.error(`unable to establish connection handle in commentsDAO: ${e}`)
@@ -16,11 +16,14 @@ export default class CommentsDAO {
   }
 //tk63@njit.edu          11/14/24             Tanvi Karad         IT302-451           Phase 4
 
-  static async getComment(commentID){
+  static async getComment(bookID){
       console.log("get comment");
       try {
-          const commentDoc = await comments.findOne({ _id: commentID });
-          console.log(commentDoc);
+          const bookIDDoc = await comments.findOne({'id' : parseInt(bookID)});
+          const newBookID = bookIDDoc._id.toString();
+          const query = {$and : [{ book_id: newBookID}, {comment: {$exists: true}}]};
+          const commentDoc = await comments.find(query).toArray();
+          console.log('RETURNED COMMENT:', commentDoc);
           return commentDoc;
       } catch(e) {
           console.error(`unable to get comment: ${e}`);

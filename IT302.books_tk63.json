@@ -1,0 +1,552 @@
+[{
+  "_id": {
+    "$oid": "66e9aba21c3c0c550c08b687"
+  },
+  "title": "Unlocking Android",
+  "isbn": "1933988673",
+  "pageCount": 416,
+  "authors": [
+    "W. Frank Ableson",
+    "Charlie Collins",
+    "Robi Sen"
+  ],
+  "last_updated": "2024-09-17 12:20 pm",
+  "image": "https://m.media-amazon.com/images/I/61HpvW+rCRL._AC_UF1000,1000_QL80_.jpg",
+  "id": 1
+},
+{
+  "_id": {
+    "$oid": "66e9aba21c3c0c550c08b689"
+  },
+  "title": "Specification by Example",
+  "isbn": "1617290084",
+  "pageCount": 0,
+  "authors": [
+    "Gojko Adzic"
+  ],
+  "last_updated": "2024-09-17 12:20 pm",
+  "image": "https://m.media-amazon.com/images/I/61K4UV59xyL._SL1500_.jpg",
+  "id": 2
+},
+{
+  "_id": {
+    "$oid": "66e9aba21c3c0c550c08b68a"
+  },
+  "title": "Flex 3 in Action",
+  "isbn": "1933988746",
+  "pageCount": 576,
+  "authors": [
+    "Tariq Ahmed with Jon Hirschi",
+    "Faisal Abid"
+  ],
+  "last_updated": "2024-09-17 12:20 pm",
+  "image": "https://pictures.abebooks.com/isbn/9788177229103-us.jpg",
+  "id": 3
+},
+{
+  "_id": {
+    "$oid": "66e9aba21c3c0c550c08b68c"
+  },
+  "title": "Collective Intelligence in Action",
+  "isbn": "1933988312",
+  "pageCount": 425,
+  "authors": [
+    "Satnam Alag"
+  ],
+  "last_updated": "2024-09-17 12:20 pm",
+  "image": "https://images.manning.com/360/480/resize/book/4/6999740-a424-4da8-8116-1251e7130e38/alag.png",
+  "id": 4
+},
+{
+  "_id": {
+    "$oid": "66e9aba21c3c0c550c08b68d"
+  },
+  "title": "Zend Framework in Action",
+  "isbn": "1933988320",
+  "pageCount": 432,
+  "authors": [
+    "Rob Allen",
+    "Nick Lo",
+    "Steven Brown"
+  ],
+  "last_updated": "2024-09-17 12:20 pm",
+  "image": "https://m.media-amazon.com/images/I/71GITDw-p8L._AC_UF1000,1000_QL80_.jpg",
+  "id": 5
+},
+{
+  "_id": {
+    "$oid": "66e9aba21c3c0c550c08b68e"
+  },
+  "title": "Flex on Java",
+  "isbn": "1933988797",
+  "pageCount": 265,
+  "authors": [
+    "Bernerd Allmon",
+    "Jeremy Anderson"
+  ],
+  "last_updated": "2024-09-17 12:20 pm",
+  "image": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781638354314/flex-on-java-9781638354314_hr.jpg",
+  "id": 6
+},
+{
+  "_id": {
+    "$oid": "66e9aba21c3c0c550c08b690"
+  },
+  "title": "OSGi in Depth",
+  "isbn": "193518217X",
+  "pageCount": 325,
+  "authors": [
+    "Alexandre de Castro Alves"
+  ],
+  "last_updated": "2024-09-17 12:20 pm",
+  "image": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781638351382/osgi-in-depth-9781638351382_hr.jpg",
+  "id": 7
+},
+{
+  "_id": {
+    "$oid": "66e9aba21c3c0c550c08b692"
+  },
+  "title": "Hello! Flex 4",
+  "isbn": "1933988762",
+  "pageCount": 258,
+  "authors": [
+    "Peter Armstrong"
+  ],
+  "last_updated": "2024-09-17 12:20 pm",
+  "image": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781638354352/hello-flex-4-9781638354352_hr.jpg",
+  "id": 8
+},
+{
+  "_id": {
+    "$oid": "66e9aba21c3c0c550c08b693"
+  },
+  "title": "Coffeehouse",
+  "isbn": "1884777384",
+  "pageCount": 316,
+  "authors": [
+    "Levi Asher",
+    "Christian Crumlish"
+  ],
+  "last_updated": "2024-09-17 12:20 pm",
+  "image": "https://m.media-amazon.com/images/I/A1ppMOSIoXL._AC_UF1000,1000_QL80_.jpg",
+  "id": 9
+},
+{
+  "_id": {
+    "$oid": "66e9aba21c3c0c550c08b695"
+  },
+  "title": "Brownfield Application Development in .NET",
+  "isbn": "1933988711",
+  "pageCount": 550,
+  "authors": [
+    "Kyle Baley",
+    "Donald Belcham"
+  ],
+  "last_updated": "2024-09-17 12:20 pm",
+  "image": "https://m.media-amazon.com/images/I/51n6IzH+nyL._AC_UF1000,1000_QL80_.jpg",
+  "id": 10
+},
+{
+  "_id": {
+    "$oid": "66e9aba21c3c0c550c08b696"
+  },
+  "title": "MongoDB in Action",
+  "isbn": "1935182870",
+  "pageCount": 0,
+  "authors": [
+    "Kyle Banker"
+  ],
+  "last_updated": "2024-09-17 12:20 pm",
+  "image": "https://m.media-amazon.com/images/I/51Q1XwUCiVL._AC_UF350,350_QL50_.jpg",
+  "id": 11
+},
+{
+  "_id": {
+    "$oid": "66e9aba21c3c0c550c08b697"
+  },
+  "title": "Distributed Application Development with PowerBuilder 6.0",
+  "isbn": "1884777686",
+  "pageCount": 504,
+  "authors": [
+    "Michael J. Barlotta"
+  ],
+  "last_updated": "2024-09-17 12:20 pm",
+  "image": "https://images.manning.com/book/7/76b1acd-1e94-4d72-985a-55edd9a759c9/barlotta.jpg",
+  "id": 12
+},
+{
+  "_id": {
+    "$oid": "66e9aba21c3c0c550c08b699"
+  },
+  "title": "Taming Jaguar",
+  "isbn": "1884777686",
+  "pageCount": 362,
+  "authors": [
+    "Michael J. Barlotta",
+    "Jason R. Weiss"
+  ],
+  "last_updated": "2024-09-17 12:20 pm",
+  "image": "https://m.media-amazon.com/images/I/51RGVoz1E7L._AC_UF1000,1000_QL80_.jpg",
+  "id": 13
+},
+{
+  "_id": {
+    "$oid": "66e9aba21c3c0c550c08b69a"
+  },
+  "title": "3D User Interfaces with Java 3D",
+  "isbn": "1884777902",
+  "pageCount": 520,
+  "authors": [
+    "Jon Barrilleaux"
+  ],
+  "last_updated": "2024-09-17 12:20 pm",
+  "image": "https://m.media-amazon.com/images/I/41GBPeXT54L._AC_UF1000,1000_QL80_.jpg",
+  "id": 14
+},
+{
+  "_id": {
+    "$oid": "66e9aba21c3c0c550c08b69d"
+  },
+  "title": "Java Persistence with Hibernate",
+  "isbn": "1932394885",
+  "pageCount": 880,
+  "authors": [
+    "Christian Bauer",
+    "Gavin King"
+  ],
+  "last_updated": "2024-09-17 12:20 pm",
+  "image": "https://images.manning.com/360/480/resize/book/d/46a71dd-949a-47e9-bb0e-1ca929f09be0/Bauer-JPH-HI.png",
+  "id": 15
+},
+{
+  "_id": {
+    "$oid": "66e9aba21c3c0c550c08b69e"
+  },
+  "id": 16,
+  "title": "JSTL in Action",
+  "isbn": "1930110529",
+  "pageCount": 480,
+  "authors": [
+    "Shawn Bayern"
+  ],
+  "last_updated": "2024-09-17 12:20 pm",
+  "image": "https://m.media-amazon.com/images/I/61ZVAqaGLvL._AC_UF1000,1000_QL80_.jpg"
+},
+{
+  "_id": {
+    "$oid": "66e9aba21c3c0c550c08b6a0"
+  },
+  "id": 17,
+  "title": "Designing Hard Software",
+  "isbn": "133046192",
+  "pageCount": 350,
+  "authors": [
+    "Douglas W. Bennett"
+  ],
+  "last_updated": "2024-09-17 12:20 pm",
+  "image": "https://m.media-amazon.com/images/I/51563GC78XL._AC_UF1000,1000_QL80_.jpg"
+},
+{
+  "_id": {
+    "$oid": "66e9aba21c3c0c550c08b6a2"
+  },
+  "id": 18,
+  "title": "jQuery in Action",
+  "isbn": "1933988355",
+  "pageCount": 376,
+  "authors": [
+    "Bear Bibeault",
+    "Yehuda Katz"
+  ],
+  "last_updated": "2024-09-17 12:20 pm",
+  "image": "https://images.manning.com/360/480/resize/book/6/1e862f3-fec9-4f94-8f9f-3bc65e14df58/Bibeault-jQurey3ed-PNG-HI.png"
+},
+{
+  "_id": {
+    "$oid": "66e9aba21c3c0c550c08b6a4"
+  },
+  "id": 19,
+  "title": "Building Secure and Reliable Network Applications",
+  "isbn": "1884777295",
+  "pageCount": 591,
+  "authors": [
+    "Kenneth P. Birman"
+  ],
+  "last_updated": "2024-09-17 12:20 pm",
+  "image": "https://m.media-amazon.com/images/I/6156W2GRKQL._AC_UF1000,1000_QL80_.jpg"
+},
+{
+  "_id": {
+    "$oid": "66e9aba21c3c0c550c08b6a5"
+  },
+  "id": 20,
+  "title": "Ruby for Rails",
+  "isbn": "1932394699",
+  "pageCount": 532,
+  "authors": [
+    "David A. Black"
+  ],
+  "last_updated": "2024-09-17 12:20 pm",
+  "image": "https://m.media-amazon.com/images/I/41SiXqEwC-L._AC_UF1000,1000_QL80_.jpg"
+},
+{
+  "_id": {
+    "$oid": "66e9aba21c3c0c550c08b6a6"
+  },
+  "id": 21,
+  "title": "The Well-Grounded Rubyist",
+  "isbn": "1933988657",
+  "pageCount": 520,
+  "authors": [
+    "David A. Black"
+  ],
+  "last_updated": "2024-09-17 12:20 pm",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR40FstSR6vGVEhDK9BFlBkoi7e2ivxEu8xg&s"
+},
+{
+  "_id": {
+    "$oid": "66e9aba21c3c0c550c08b6a7"
+  },
+  "id": 22,
+  "title": "Website Owner's Manual",
+  "isbn": "1933988452",
+  "pageCount": 296,
+  "authors": [
+    "Paul A. Boag"
+  ],
+  "last_updated": "2024-09-17 12:20 pm",
+  "image": "https://m.media-amazon.com/images/I/61edMtQQFzL._AC_UF1000,1000_QL80_.jpg"
+},
+{
+  "_id": {
+    "$oid": "66e9aba21c3c0c550c08b6a9"
+  },
+  "id": 23,
+  "title": "Hello! Python",
+  "isbn": "1935182080",
+  "pageCount": 350,
+  "authors": [
+    "Anthony Briggs"
+  ],
+  "last_updated": "2024-09-17 12:20 pm",
+  "image": "https://m.media-amazon.com/images/I/61QhaXDmD0L.jpg"
+},
+{
+  "_id": {
+    "$oid": "66e9aba21c3c0c550c08b6aa"
+  },
+  "id": 24,
+  "title": "PFC Programmer's Reference Manual",
+  "isbn": "1884777554",
+  "pageCount": 368,
+  "authors": [
+    "Richard Brooks"
+  ],
+  "last_updated": "2024-09-17 12:20 pm",
+  "image": "https://m.media-amazon.com/images/I/51jhBOerKML._AC_UF1000,1000_QL80_.jpg"
+},
+{
+  "_id": {
+    "$oid": "66e9aba21c3c0c550c08b6ab"
+  },
+  "id": 25,
+  "title": "Graphics File Formats",
+  "isbn": "133034054",
+  "pageCount": 484,
+  "authors": [
+    "C. Wayne Brown",
+    "Barry J. Shepherd"
+  ],
+  "last_updated": "2024-09-17 12:20 pm",
+  "image": "https://i.ebayimg.com/images/g/dswAAOSwkX1ZcNSr/s-l600.jpg"
+},
+{
+  "_id": {
+    "$oid": "66e9aba21c3c0c550c08b6ad"
+  },
+  "id": 26,
+  "title": "iOS in Practice",
+  "isbn": "1617291269",
+  "pageCount": 325,
+  "authors": [
+    "Bear P. Cahill"
+  ],
+  "last_updated": "2024-09-17 12:20 pm",
+  "image": "https://m.media-amazon.com/images/I/61Skir9YGFL._AC_UF1000,1000_QL80_.jpg"
+},
+{
+  "_id": {
+    "$oid": "66e9aba21c3c0c550c08b6b3"
+  },
+  "id": 27,
+  "title": "Mobile Agents",
+  "isbn": "1884777368",
+  "pageCount": 320,
+  "authors": [
+    "William R. Cockayne and Michael Zyda",
+    "editors"
+  ],
+  "last_updated": "2024-09-17 12:20 pm",
+  "image": "https://m.media-amazon.com/images/I/51CE8CPK2DL._AC_UF1000,1000_QL80_.jpg"
+},
+{
+  "_id": {
+    "$oid": "66e9aba21c3c0c550c08b6b6"
+  },
+  "id": 28,
+  "title": "Android in Practice",
+  "isbn": "1935182927",
+  "pageCount": 500,
+  "authors": [
+    "Charlie Collins",
+    "Michael D. Galpin",
+    "",
+    "Matthias Kaeppler"
+  ],
+  "last_updated": "2024-09-17 12:20 pm",
+  "image": "https://m.media-amazon.com/images/I/61cg5qkV7aL.jpg"
+},
+{
+  "_id": {
+    "$oid": "66e9aba21c3c0c550c08b6be"
+  },
+  "id": 29,
+  "title": "Hello! HTML5 & CSS3",
+  "isbn": "1935182897",
+  "pageCount": 325,
+  "authors": [
+    "Rob Crowther"
+  ],
+  "last_updated": "2024-09-17 12:20 pm",
+  "image": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781935182894/hello-html5-css3-9781935182894_hr.jpg"
+},
+{
+  "_id": {
+    "$oid": "66e9aba21c3c0c550c08b6c3"
+  },
+  "id": 30,
+  "title": "Essential Guide to Peoplesoft Development and Customization",
+  "isbn": "1884777929",
+  "pageCount": 1101,
+  "authors": [
+    "Tony DeLia",
+    "Galina Landres",
+    "Isidor Rivera",
+    "Prakash Sankaran"
+  ],
+  "last_updated": "2024-09-17 12:20 pm",
+  "image": "https://m.media-amazon.com/images/I/51N3ZHDAK0L._AC_UF1000,1000_QL80_.jpg"
+},
+{
+  "_id": {
+    "$oid": "66e9aba21c3c0c550c08b6ca"
+  },
+  "id": 31,
+  "title": "Mule in Action",
+  "isbn": "1933988967",
+  "pageCount": 432,
+  "authors": [
+    "David Dossot",
+    "John D'Emic"
+  ],
+  "last_updated": "2024-09-17 12:20 pm",
+  "image": "https://m.media-amazon.com/images/I/516yyJMKjqL._AC_UF1000,1000_QL80_.jpg"
+},
+{
+  "_id": {
+    "$oid": "66eaf8eef6dffedb165c9950"
+  },
+  "id": 32,
+  "title": "Data Munging with Perl",
+  "isbn": "1930110006",
+  "pageCount": 304,
+  "authors": [
+    "David Cross"
+  ],
+  "image": "https://images.manning.com/360/480/resize/book/8/739fb33-ce8e-495f-bf2f-b36cd338e5b9/cross.png",
+  "last_updated": "2024-09-17 12:20 pm"
+},
+{
+  "_id": {
+    "$oid": "671ab37cf8d417e41e189cb4"
+  },
+  "name": "John Doe",
+  "user_id": 123,
+  "date": {
+    "$date": "2024-10-24T20:52:12.114Z"
+  },
+  "comment": "This was a great book.",
+  "book_id": "66e9aba21c3c0c550c08b6ab"
+},
+{
+  "_id": {
+    "$oid": "67563070e03e9e62189aa808"
+  },
+  "name": "Tom",
+  "user_id": "12",
+  "date": {
+    "$date": "2024-12-08T23:49:04.550Z"
+  },
+  "comment": "good book",
+  "book_id": "66e9aba21c3c0c550c08b687"
+},
+{
+  "_id": {
+    "$oid": "675632b1a996e6aa5c29424b"
+  },
+  "name": "tanvi",
+  "user_id": "12",
+  "date": {
+    "$date": "2024-12-08T23:58:41.193Z"
+  },
+  "comment": "very informative",
+  "book_id": null
+},
+{
+  "_id": {
+    "$oid": "675637f46f4534e5c5e42383"
+  },
+  "name": "Tom",
+  "user_id": "12",
+  "date": {
+    "$date": "2024-12-09T00:21:08.339Z"
+  },
+  "comment": "Very informative",
+  "book_id": "66e9aba21c3c0c550c08b687"
+},
+{
+  "_id": {
+    "$oid": "67563c622603b310934c7378"
+  },
+  "name": "Tanvi",
+  "user_id": "123",
+  "date": {
+    "$date": "2024-12-09T01:54:34.296Z"
+  },
+  "comment": "edit: I loved this book!",
+  "book_id": "66e9aba21c3c0c550c08b6a2"
+},
+{
+  "_id": {
+    "$oid": "67564d592a892eac0ccc9194"
+  },
+  "name": "Tanvi",
+  "user_id": "123",
+  "date": {
+    "$date": "2024-12-09T01:52:25.084Z"
+  },
+  "comment": "I loved this book!",
+  "book_id": "66e9aba21c3c0c550c08b687"
+},
+{
+  "_id": {
+    "$oid": "6756513c2a892eac0ccc9198"
+  },
+  "name": "Harry",
+  "user_id": "135",
+  "date": {
+    "$date": "2024-12-09T02:09:00.448Z"
+  },
+  "comment": "Very good book!",
+  "book_id": "66e9aba21c3c0c550c08b6a2"
+}]

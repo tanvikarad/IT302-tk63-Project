@@ -9,7 +9,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-//tk63@njit.edu          11/14/24             Tanvi Karad         IT302-451           Phase 4
+//tk63@njit.edu          12/8/24             Tanvi Karad         IT302-451           Phase 5
 
 
 
@@ -42,15 +42,13 @@ function App() {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-      <Routes>
+      <Routes basename="/tk63">
         <Route path="/tk63/" element={<BooksList />}></Route>
         <Route path="/tk63/books" element={<BooksList />}></Route>
 
         <Route path="/tk63/books/:id/" element={<Book user={user} />}></Route>
-        <Route
-          path="tk63/books/:id/comment"
-          element={<AddComment user={user} />}
-        ></Route>
+        <Route path="/books/:id/comment" element={<AddComment user={user}    />}></Route>   
+        <Route path="/tk63/books/:id/comment" element={<AddComment user={user}    />}></Route>   
 
         <Route path="/tk63/login" element={<Login user={user} loginSetter={loginSetter} />}></Route>
       </Routes>

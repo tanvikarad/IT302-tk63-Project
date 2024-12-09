@@ -1,11 +1,11 @@
 import CommentsDAO from '../dao/commentsDAO.js'
-//tk63@njit.edu          11/14/24             Tanvi Karad         IT302-451           Phase 4
+//tk63@njit.edu          12/8/24             Tanvi Karad         IT302-451           Phase 5
 
 export default class CommentsController {
 
   static async apiPostComment(req,res,next) {
     try {
-      const bookID = req.body.bookID
+      const bookId = req.body.id
       const comment = req.body.comment
       const userInfo = {
         name: req.body.name,
@@ -15,7 +15,7 @@ export default class CommentsController {
       const date = new Date()
 
       const CommentResponse = await CommentsDAO.addComment(
-        bookID,
+        bookId,
         userInfo,
         comment,
         date
@@ -29,7 +29,6 @@ export default class CommentsController {
   static async apiGetComment(req, res) {
       try {
           const bookID = req.params.id;
-          console.log("apiGetComment: bookid", bookID);
           const comments = await CommentsDAO.getComment(bookID);
           res.json(comments);
       } catch (e) {
@@ -40,7 +39,7 @@ export default class CommentsController {
 
   static async apiUpdateComment(req,res,next) {
     try {
-      const commentID = req.body.commentID
+      const commentID = req.body.commentId
       const comment = req.body.comment
       const date = new Date()
       const CommentResponse = await CommentsDAO.updateComment(

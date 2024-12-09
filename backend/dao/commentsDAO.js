@@ -14,7 +14,7 @@ export default class CommentsDAO {
       console.error(`unable to establish connection handle in commentsDAO: ${e}`)
     }
   }
-//tk63@njit.edu          11/14/24             Tanvi Karad         IT302-451           Phase 4
+//tk63@njit.edu          12/8/24             Tanvi Karad         IT302-451           Phase 5
 
   static async getComment(bookID){
       console.log("get comment");
@@ -33,7 +33,7 @@ export default class CommentsDAO {
   }
     
 
-  static async addComment(bookID, user, comment, date) {
+  static async addComment(bookId, user, comment, date) {
     console.log("add comment")
     try {
       const commentDoc = {
@@ -41,7 +41,7 @@ export default class CommentsDAO {
         user_id: user._id,
         date: date,
         comment: comment,
-        book_id: bookID
+        book_id: bookId
       }
       console.log(commentDoc);
       return await comments.insertOne(commentDoc);
@@ -55,8 +55,9 @@ export default class CommentsDAO {
  
   static async updateComment(commentID, userId, comment, date) {
     try {
+      
       const updateResponse = await comments.updateOne(
-        { user_id: userId, _id: new ObjectId(commentID) },
+        { user_id: userId },
         { $set: { comment: comment, date: date } }
       )
       console.log(userId)

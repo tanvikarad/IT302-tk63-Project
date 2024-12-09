@@ -1,4 +1,4 @@
-//tk63@njit.edu          10/3/24             Tanvi Karad         IT302-451           Phase 2
+//tk63@njit.edu          12/8/24             Tanvi Karad         IT302-451           Phase 5
 
 let books_tk63
 
@@ -33,8 +33,7 @@ export default class BooksDAO {
           console.log(filters["pageCount"])
           console.log("pg works")
             query = { "pageCount": { $eq: (parseInt(filters['pageCount']))}}
-      }
- }
+      }  
  let cursor
  try {
    cursor = await books_tk63
@@ -50,4 +49,4 @@ export default class BooksDAO {
    return { books_list: [], totalNumBooks: 0 }
  }
 }
-}
+}}

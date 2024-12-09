@@ -1,4 +1,4 @@
-//tk63@njit.edu          10/3/24             Tanvi Karad         IT302-451           Phase 2
+//tk63@njit.edu          12/8/24             Tanvi Karad         IT302-451           Phase 5
 
 import booksDAO from '../dao/booksDAO.js'
 
@@ -14,6 +14,9 @@ export default class BooksController {
     } else if(req.query.pageCount){
       filters.pageCount = req.query.pageCount
     }
+    else if(req.query._id){
+      filters._id = req.query._id
+    }
     const { books_list, totalNumBooks } = await booksDAO.getBooks({
         filters, page, booksPerPage})
     
@@ -25,6 +28,9 @@ export default class BooksController {
           total_results: totalNumBooks,
         }
         res.json(response)
+
+
+  
        }
     }
     

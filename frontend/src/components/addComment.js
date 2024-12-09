@@ -5,7 +5,7 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Book from './books';
 
-//tk63@njit.edu          11/14/24             Tanvi Karad         IT302-451           Phase 4
+//tk63@njit.edu          12/8/24             Tanvi Karad         IT302-451           Phase 5
 
 
 const AddComment = (props) => {
@@ -38,7 +38,7 @@ const AddComment = (props) => {
       if (editing) {
         // get existing review id
         data.comment_id = location.state.currentComment._id
-        BookDataService.updateRComment(data)
+        BookDataService.updateComment(data)
           .then(response => {
             setSubmitted(true);
             console.log(response.data)
@@ -50,7 +50,10 @@ const AddComment = (props) => {
         BookDataService.createComment(data)
           .then(response => {
             setSubmitted(true)
-          }).catch(e => { })
+            console.log("Comment submitted successfully:", response);
+
+
+          }).catch(e => { console.log(e);})
       }
     }
   
@@ -59,7 +62,7 @@ const AddComment = (props) => {
         {submitted ? (
           <div>
             <h5>Comment submitted successfully</h5>
-            <Link to={"/books/" + id}>
+            <Link to={"/tk63/books/" + id}>
               Back to the Book
             </Link>
           </div>

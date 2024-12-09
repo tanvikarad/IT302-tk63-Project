@@ -8,7 +8,7 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
 
-//tk63@njit.edu          11/14/24             Tanvi Karad         IT302-451           Phase 4
+//tk63@njit.edu          12/8/24             Tanvi Karad         IT302-451           Phase 5
 
 
 const Book = (props) => {
@@ -112,11 +112,11 @@ const Book = (props) => {
                     {props.user && props.user.id === comment.user_id &&
                       <Row>
                         <Col><Link
-                          to={"/books/" + id + "/comment"}
+                          to={"/tk63/books/" + id + "/comment"}
                           state={{ currentComment: comment }}
                         >Edit</Link>
-                        </Col>
-                        <Col><Button variant="link">Delete</Button></Col>
+                         </Col>
+                        <Col><Button variant="link" onClick={() => deleteComment(comment._id, index)}>Delete</Button></Col>
                       </Row>}
                   </Card.Body>
                 </Card>
